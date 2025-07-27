@@ -1,0 +1,106 @@
+{
+  "bookmarks": [
+    {
+      "id": "1",
+      "name": "Angularsdasdasd",
+      "url": "https://angular.io",
+      "date": "2025-07-25T08:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "NgRx a",
+      "url": "https://ngrx.io",
+      "date": "2025-07-24T10:30:00Z"
+    },
+    {
+      "id": "3",
+      "name": "TypeScript",
+      "url": "https://www.typescriptlang.org/",
+      "date": "2025-07-20T12:00:00Z"
+    },
+    {
+      "id": "56f6",
+      "name": "sdfsdfsabcdefg",
+      "url": "sdfsdfsdfsfdf",
+      "createdAt": "2025-07-27T10:16:45.072Z"
+    },
+    {
+      "id": "fce8",
+      "name": "ddssdfsd",
+      "url": "dfsgdfdfg",
+      "createdAt": "2025-07-27T11:02:03.468Z"
+    },
+    {
+      "id": "9b4a",
+      "name": "asdadasd",
+      "url": "asdasdasdasd",
+      "createdAt": "2025-07-27T11:03:15.877Z"
+    },
+    {
+      "id": "1d9f",
+      "name": "sdasdadasd",
+      "url": "asdsadasdasdasd",
+      "createdAt": "2025-07-27T11:03:23.352Z"
+    },
+    {
+      "id": "db0a",
+      "name": "fdsdfsdf",
+      "url": "sdfsdfsdfsdf",
+      "createdAt": "2025-07-27T11:04:14.263Z"
+    },
+    {
+      "id": "0956",
+      "name": "ewrwerwer",
+      "url": "werwerwerwe",
+      "createdAt": "2025-07-27T11:10:47.408Z"
+    },
+    {
+      "id": "7aa4",
+      "name": "sdffsfd",
+      "url": "dfssdfsdfsd",
+      "createdAt": "2025-07-27T11:14:29.904Z"
+    },
+    {
+      "id": "2a50",
+      "name": "ewrwer",
+      "url": "rwerwer",
+      "createdAt": "2025-07-27T11:17:11.670Z"
+    },
+    {
+      "id": "61b2",
+      "name": "sdgasdgas",
+      "url": "sadgasdgasd",
+      "createdAt": "2025-07-27T11:31:56.463Z"
+    },
+    {
+      "id": "cfc2",
+      "name": "sdffasdf",
+      "url": "sdfasdfdf",
+      "createdAt": "2025-07-27T12:05:24.815Z"
+    },
+    {
+      "id": "ba9f",
+      "name": "bla bla",
+      "url": "sdfsdfdfsdfsf",
+      "createdAt": "2025-07-27T12:05:31.835Z"
+    },
+    {
+      "id": "8109",
+      "name": "testul",
+      "url": "test",
+      "createdAt": "2025-07-27T12:28:01.429Z"
+    },
+    {
+      "id": "8125",
+      "name": "dfgadsfsadfsdfsadfsdfsdfsdfsadfsadfsadf",
+      "url": "asdfasdfsadfs",
+      "createdAt": "2025-07-27T13:04:25.415Z"
+    },
+    {
+      "id": "ae94",
+      "name": "cald",
+      "url": "rau",
+      "createdAt": "2025-07-27T13:45:38.307Z"
+    }
+  ]
+}

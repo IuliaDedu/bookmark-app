@@ -1,0 +1,38 @@
+<mat-toolbar class="navbar-search" color="primary" fxLayout="row" fxLayout="space-between center">
+  <div fxFlex="40%">
+    <span>Bookmarker</span>
+  </div>
+
+  <span class="spacer-search"></span>
+
+    <div fxFlex="55%">
+      <div class="search-wrapper">
+        <mat-icon matPrefix>search</mat-icon>
+        <input matInput (input)="handleSearchInput($event)" placeholder="Filter bookmarks..." class="white-placeholder search-input"/>
+      </div>
+    </div>
+
+    <span class="spacer-add"></span>
+
+  <div fxFlex="5%">
+    <button mat-icon-button color="accent" [routerLink]="['/create']">
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>
+
+<ng-container *ngFor="let group of ['Today', 'Yesterday', 'Older']">
+  <div class="groups-bookmarks">
+    <h3>{{ group }}</h3>
+    <div *ngFor="let bookmark of groupedBookmarks[group]" class="bookmark-item">
+      <mat-icon class="bookmark-icon">bookmark</mat-icon>
+      <div class="bookmark-text">
+        <div class="bookmark-title">{{ bookmark.name }}</div>
+        <a class="bookmark-link" [href]="bookmark.url" target="_blank">{{ bookmark.url }}</a>
+      </div>
+      <button color="accent" [routerLink]="['/edit', bookmark.id]">
+        <mat-icon>edit</mat-icon>
+      </button>
+    </div>
+  </div>
+</ng-container>

@@ -1,0 +1,37 @@
+.edit-container {
+    padding: 24px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    margin-bottom: 24px;
+    font-weight: 500;
+  }
+
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 24px;
+  }
+  
+  .button-row {
+    display: flex;
+    gap: 16px;
+  }
+
+  .cancel-button {
+    margin-left: 10px;
+  }
+
+  .spacer-edit {
+    flex: 1;
+    color: white;
+  }

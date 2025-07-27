@@ -1,0 +1,33 @@
+<mat-toolbar color="primary" class="navbar-search">
+  <div fxFlex="40%">
+    <span>Bookmarker</span>
+  </div>
+
+  <span class="spacer-create"></span>
+
+  <div fxFlex="40%">
+    <button mat-icon-button [routerLink]="['/list']">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>
+
+<div class="create-container">
+  <h3>Create New Bookmark</h3>
+
+  <form (ngSubmit)="createBookmark()" #bookmarkForm="ngForm" class="form">
+    <mat-form-field appearance="outline" class="form-field">
+      <mat-label>Name</mat-label>
+      <input matInput name="name" [(ngModel)]="bookmark.name" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="form-field">
+      <mat-label>URL</mat-label>
+      <input matInput name="url" [(ngModel)]="bookmark.url" required />
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="bookmarkForm.invalid">
+      Create Bookmark
+    </button>
+  </form>
+</div>

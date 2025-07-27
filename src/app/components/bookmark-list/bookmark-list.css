@@ -1,0 +1,131 @@
+.bookmark-container {
+  padding: 20px;
+}
+
+.spacer-search {
+  flex: 0.8;
+}
+
+.spacer-add {
+  flex: 0.8;
+  color: white;
+}
+
+.navbar-search {
+    background: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    gap: 12px;
+}
+
+::ng-deep .mat-icon.mat-form-field-icon {
+  margin-right: 4px;
+}
+
+::ng-deep .mat-mdc-form-field-infix {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+mat-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bookmark-groups {
+  padding: 1rem;
+}
+
+mat-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+mat-input {
+  width: 300px;
+  border-color: white;
+}
+
+.search-wrapper {
+  position: relative;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+
+.search-wrapper .search-icon {
+  color: white;
+  margin-right: 8px;
+}
+
+.search-wrapper .search-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 4px 0;
+  font-size: 16px;
+}
+
+.search-wrapper .search-input::placeholder {
+  color: white;
+  opacity: 1;
+  padding-left: 10px;
+}
+
+button[mat-icon-button] mat-icon {
+  color: white;
+}
+
+h3 {
+  margin: 16px 0 8px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bookmark-link:hover {
+  text-decoration: underline;
+}
+
+.groups-bookmarks {
+  width: 50%;
+  display: block;
+  margin: 40px auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 24px;
+}
+
+.bookmark-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.bookmark-icon {
+  color: #555;
+}
+
+.bookmark-text {
+  flex-grow: 1;
+}
+
+.bookmark-title {
+  font-weight: bold;
+}
+
+.bookmark-link {
+  color: #3f51b5;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
